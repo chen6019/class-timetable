@@ -1,14 +1,3 @@
-/**
- * @Author: xiaoxiao
- * @Date: 2022-09-18 19:57:55
- * @LastEditTime: 2022-09-18 21:14:14
- * @LastEditors: xiaoxiao
- * @LastEditTime: 2022-10-26 20:02:00
- * @LastEditors: chen6019
- * @Description:
- * @FilePath: \AISchedule\新正方教务\山东师范大学\parser.js
- * @QQ: 357914968
- */
 function resolveCourseConflicts(result) {
   let splitTag = "&";
   //将课拆成单节，并去重
