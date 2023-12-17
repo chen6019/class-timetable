@@ -1,15 +1,3 @@
-/**
- * @Author: xiaoxiao
- * @Date: 2022-03-01 22:04:08
- * @EditTime: 2022-09-18 21:04:43
- * @Editors: xiaoxiao
- * @LastEditTime: 2022-10-26 20:02:00
- * @LastEditors: chen6019
- * @Description:
- * @FilePath: \AISchedule\新正方教务\山东师范大学\provider.js
- * @QQ：357914968
- */
-
 async function request(tag, data, url) {
   return await fetch(url, {
     method: tag,
@@ -18,8 +6,8 @@ async function request(tag, data, url) {
       "Content-Type": "application/x-www-form-urlencoded",
     },
   })
-    .then((rp) => rp.text())
-    .then((v) => v);
+    。then((rp) => rp.text())
+    。then((v) => v);
 }
 function AIScheduleLoading({
   titleText = "加载中",
